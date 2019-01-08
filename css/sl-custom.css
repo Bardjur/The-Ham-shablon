@@ -1,0 +1,59 @@
+#camera_wrap_130{
+	min-height: 100vh !important;
+	width: 100%;
+	margin: 0 !important;
+}
+.cameraSlide .imgLoaded{
+	margin: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+	object-fit: cover;
+}
+.cameraContent.cameracurrent{
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+}
+#camera_wrap_130 div.camera_prev > span {
+	height: 63px;
+	width: 63px;
+}
+.slide-text{
+	color:#fff;
+	text-align: center;
+}
+.camera_next{
+	top: auto;
+	bottom:100px;
+	right:100px;	
+}
+.camera_prev{
+	top: auto;
+	left:auto;
+	bottom:100px;
+	right:199px;
+}
+#camera_wrap_130 div.camera_prev>span:hover, #camera_wrap_130 div.camera_next>span:hover{
+	background: url("../images/prev_next_hover.svg") no-repeat;
+	opacity: 1;
+}
+.camera_thumbs{
+	width:170px;
+	position:absolute;
+	right:100px;
+	bottom:170px;
+}
+.camera_thumbs_cont ul{
+	width:170px !important;
+	height:auto !important;
+}
+.camera_thumbs_cont .pix_thumb{
+	display:none;
+}
+.camera_thumbs_cont .cameracurrent{
+	display:block;
+}
+.camera_thumbs_cont img{
+	width:170px;
+	height:auto;
+}

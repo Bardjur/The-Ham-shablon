@@ -1,0 +1,27 @@
+@media (max-width:1500px){
+	.mini-block-wrapper{
+		/*max-width: 1170px;*/
+		width:80%;
+	}
+}
+@media(max-width:1199px){
+	header #navbarNav .nav-link{
+		padding: 6px 10px;
+		line-height: 1.2;
+		float: right;
+	}
+	header .navbar-toggler{
+		float: right;
+		margin: 39px;
+	}
+}
+@media (max-width:719px){
+	html{
+		font-size: 14px;
+	}
+}
+@media (max-width:539px){
+	html{
+		font-size: 10px;
+	}
+}
