@@ -212,11 +212,11 @@ header .nav-scroll{
 
 
 /*FOURTH BLOCK*/
-#fourthBlock {
+.fourthBlock {
 	margin-top: 40px;
 	border: none;
 }
-#fourthBlock .card-img, #seventhBlock .card-img {
+.fourthBlock .card-img, .seventhBlock .card-img {
 	width: auto;
 	height: 100%;
 }
@@ -281,7 +281,7 @@ header .nav-scroll{
 
 /*FIFTH BLOCK*/
 
-#fifthBlock{
+.fifthBlock{
 	padding-bottom: 100px;
 	background: #f8fcfe;
 }
@@ -307,11 +307,11 @@ header .nav-scroll{
 	outline: 0;
 	box-shadow: none;
 }
-#fifthBlock .dataBlock div[class*=col]{
+.fifthBlock .dataBlock div[class*=col]{
 	padding: 0;
 }
 
-#fifthBlock .hover-layer{
+.fifthBlock .hover-layer{
 	position: absolute;
 	/*visibility: hidden;*/
 	border-top: 2px solid #18cfab;
@@ -323,22 +323,22 @@ header .nav-scroll{
 	right: 0;
 	padding-top:30px; 
 }
-#fifthBlock div[class*=col]:hover .hover-layer {
+.fifthBlock div[class*=col]:hover .hover-layer {
 	visibility: visible;
 }
-#fifthBlock .hover-layer {
+.fifthBlock .hover-layer {
 	visibility: hidden;
 }
-#fifthBlock .hover-layer h5{
+.fifthBlock .hover-layer h5{
 	font-size: 14px;
 	padding-top: 25px;
 	margin-bottom: 0.2rem;
 }
-#fifthBlock .hover-layer p{
+.fifthBlock .hover-layer p{
 	font-size: 12px;
 	font-weight: 300;
 }
-#fifthBlock .hover-layer i{
+.fifthBlock .hover-layer i{
 	display: inline-block;
 	padding: 15px;
 	border: 1px solid #18cfab;
@@ -346,7 +346,7 @@ header .nav-scroll{
 	border-radius: 50%;
 	font-size: 13px;
 }
-#fifthBlock .hover-layer i:nth-child(2){
+.fifthBlock .hover-layer i:nth-child(2){
 	background: #18cfab;
 	color:#fff;
 }
@@ -355,13 +355,13 @@ header .nav-scroll{
 
 /*END SIXTH BLOCK*/
 
-#sixthBlock{
+.sixthBlock{
 	padding-bottom: 100px;
 }
-#sixthBlock .tabs-block{
+.sixthBlock .tabs-block{
 	margin-top: 0;
 }
-#sixthBlock nav a{
+.sixthBlock nav a{
 	background: #f8fcfe;
 	border: 1px solid #ebebeb;
 	border-radius: 0;
@@ -369,16 +369,16 @@ header .nav-scroll{
 	color: #777;
 	padding: 20px 0;
 }
-#sixthBlock nav a:hover{
+.sixthBlock nav a:hover{
 	color: #fff;
 	background: #18cfab;
 }
-#sixthBlock nav .nav .active{
+.sixthBlock nav .nav .active{
 	color: #fff;
 	background: #18cfab;
 }
 
-#sixthBlock nav .nav .active::after {
+.sixthBlock nav .nav .active::after {
 	content: '';
 	z-index: 1000;
 	position: absolute;
@@ -387,15 +387,15 @@ header .nav-scroll{
 	border: 15px solid transparent;
 	border-top: 15px solid #18cfab;
 }
-#sixthBlock .tab-pane{
+.sixthBlock .tab-pane{
 	margin-top: 24px;
 	font-size: 14px;
 font-weight: 300;
 }
-#sixthBlock .tab-pane div[class*=col]{
+.sixthBlock .tab-pane div[class*=col]{
 	padding: 0;
 }
-#sixthBlock .tab-pane div[class*=col]:last-child{
+.sixthBlock .tab-pane div[class*=col]:last-child{
 	padding-left: 15px;
 }
 
@@ -403,13 +403,13 @@ font-weight: 300;
 
 
 /* SEVENTH BLOCK*/
-#seventhBlock h2{
+.seventhBlock h2{
 	text-transform: uppercase;
 	font-size: 40px;
 	color: #18cfab;
 	margin:120px 0 35px 0;
 }
-#seventhBlock p{
+.seventhBlock p{
 	font-size: 16px;
 	color: #d8d8d8;
 	margin-bottom:70px;
