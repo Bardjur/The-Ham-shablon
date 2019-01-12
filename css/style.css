@@ -178,10 +178,6 @@ header .nav-scroll{
 
 
 /*THIRD BLOCK*/
-
-.thirdBlock{
-/*	margin-top: 90px;*/
-}
 .thirdBlock .dataBlock div[class*=col]{
 	margin-bottom: 60px;
 }
@@ -198,7 +194,7 @@ header .nav-scroll{
 }
 .thirdBlock .my-icon{
 	font-size: 24px;
-	display: inline-block;
+	display: block;
 	padding-top: 7px;
 	float:left;
 }
