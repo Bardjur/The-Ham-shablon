@@ -18,6 +18,18 @@ $(document).ready(function(){
     }
   })
   // END MAIN MENU SCROLL
+
+  $('.slider-eleventh-block').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    fade: true,
+    dots: true,
+    dotsClass: 'nav-slider-eleventh'
+    // asNavFor: '.nav-slider-eleventh-block'
+   });
+   $('.nav-slider-eleventh li button').text('');
+
 });
 
 // MAIN SLIDER

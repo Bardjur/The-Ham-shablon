@@ -566,10 +566,107 @@ font-weight: 300;
 /*END TENTH BLOCK*/
 
 
+/*ELEVENTH BLOCK*/
+.EleventhBlock{
+	padding-bottom: 100px;
+}
+.slider-eleventh-block{
+	margin-top: 65px;
+}
+.slider-eleventh-block .my-icon{
+	font-size: 50px;
+}
+.slider-eleventh-block .author {
+	color: #18cfab;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 40px 0 5px 0;
+	text-transform: uppercase;
+}
+.occupation {
+	padding-top: 0;
+	font-size:13px;
+}
+.slider-eleventh-block .slick-slide img{
+	margin: 40px auto 5px auto;
+	border-radius: 50%;
+	border: 1px solid #18cfab;
+	box-shadow: 0 0 0 5px rgba(24, 207, 171,0.2);
+}
+.slider-eleventh-block .slick-prev, .slider-eleventh-block .slick-next {
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	bottom: 10px;
+	display: block;
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	cursor: pointer;
+	color: #ebebeb;
+	border: 1px solid #ebebeb;
+	outline: none;
+	background-color:transparent;
+}
+.slider-eleventh-block .slick-prev {
+	left: calc(50% - 250px);
+	background: url("../images/slide_prev_next.svg") no-repeat;
+	background-size: 45px;
+}
+.slider-eleventh-block .slick-next {
+	right: calc(50% - 250px);
+	background: url("../images/slide_prev_next.svg") no-repeat;
+	background-size: 45px;
+	transform: scale(-1, 1);
+}
+.slider-eleventh-block .slick-next:hover, .slider-eleventh-block .slick-prev:hover{
+	background: url("../images/slide_prev_next.svg") no-repeat #18cfab;
+	background-size: 45px;
+	border: 1px solid #18cfab;
+}
+.nav-slider-eleventh {
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 50px 0 0 0;
+	list-style: none;
+	text-align: center;
+}
+.nav-slider-eleventh li {
+	position: relative;
+	display: inline-block;
+	margin:20px 20px 0 20px;
+	padding: 0;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.nav-slider-eleventh li.slick-active{
+	margin-top: 0;
+	top:-20px;
+}
+.nav-slider-eleventh li button{
+	background-size: 100%;
+	object-fit: cover;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid rgba(24, 207, 171,0.2);
+	box-shadow: 0 0 0 5px rgba(24, 207, 171,0.2);
+}
+.nav-slider-eleventh li.slick-active button{
+	border: 1px solid #18cfab;
+}
+#slick-slide-control00{
+	background-image: url(../images/testi-1.jpg);
+}
+#slick-slide-control01{
+	background-image: url(../images/testi-2.jpg);
+}
+#slick-slide-control02{
+	background-image: url(../images/testi-3.jpg);
+}
 
-
-
-
+/*END ELEVENTH BLOCK*/
 
 
 /*TWELFTH BLOCK*/
