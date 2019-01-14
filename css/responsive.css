@@ -12,7 +12,7 @@
 	}
 	header .navbar-toggler{
 		float: right;
-		margin: 39px;
+		/*margin: 39px;*/
 	}
 }
 @media (max-width:719px){
@@ -23,5 +23,11 @@
 @media (max-width:539px){
 	html{
 		font-size: 10px;
+	}
+	.slider-eleventh-block .slick-next {
+		right: 0;
+	}
+	.slider-eleventh-block .slick-prev{
+		left: 0;
 	}
 }
