@@ -82,6 +82,9 @@ $(document).ready(function(){
     arrows: true,
     fade: true,
     dots: true,
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnHover: false,
     dotsClass: 'nav-slider-eleventh'
     // asNavFor: '.nav-slider-eleventh-block'
    });
